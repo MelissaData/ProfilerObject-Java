@@ -38,7 +38,7 @@ And return
 
 - Windows 64-bit Java 19
 - Powershell 5.1
-- Melissa data files for 2024-Q3
+- Melissa data files for 2024-Q4
 
 ## Required File(s) and Programs
 
@@ -84,8 +84,8 @@ The console will then prompt you with the following warning shown in the image b
 
 #### Download this project
 ```
-$ git clone https://github.com/MelissaData/ProfilerObject-Java
-$ cd ProfilerObject-Java
+git clone https://github.com/MelissaData/ProfilerObject-Java
+cd ProfilerObject-Java
 ```
 
 #### Set up Melissa Updater 
@@ -119,26 +119,26 @@ Parameters:
   When you have modified the script to match your data location, let's run the script. There are two modes:
 - Interactive 
 
-	The script will prompt the user for a csv file, then use the provided inputs to test Profiler Object. For example:
-	```
-	$ .\MelissaProfilerObjectWindowsJava.ps1
-	```
-    For quiet mode:
+  The script will prompt the user for a csv file, then use the provided inputs to test Profiler Object. For example:
     ```
-    $ .\MelissaProfilerObjectWindowsJava.ps1 -quiet
+    .\MelissaProfilerObjectWindowsJava.ps1
+    ```
+  For quiet mode:
+    ```
+    .\MelissaProfilerObjectWindowsJava.ps1 -quiet
     ```
 - Command Line 
 
-	You can pass a csv file and a license string into the ```-file``` and ```-license``` parameters respectively to test Profiler Object. For example:
+  You can pass a csv file and a license string into the ```-file``` and ```-license``` parameters respectively to test Profiler Object. For example:
     ```
-    $ .\MelissaProfilerObjectWindowsJava.ps1 -file "MelissaProfilerObjectSampleInput.csv"
-    $ .\MelissaProfilerObjectWindowsJava.ps1 -file "MelissaProfilerObjectSampleInput.csv" -license "<your_license_string>"
+    .\MelissaProfilerObjectWindowsJava.ps1 -file "MelissaProfilerObjectSampleInput.csv"
+    .\MelissaProfilerObjectWindowsJava.ps1 -file "MelissaProfilerObjectSampleInput.csv" -license "<your_license_string>"
     ```
 
-	For quiet mode:
+  For quiet mode:
     ```
-    $ .\MelissaProfilerObjectWindowsJava.ps1 -file "MelissaProfilerObjectSampleInput.csv"  -quiet
-    $ .\MelissaProfilerObjectWindowsJava.ps1 -file "MelissaProfilerObjectSampleInput.csv"  -license "<your_license_string>" -quiet
+    .\MelissaProfilerObjectWindowsJava.ps1 -file "MelissaProfilerObjectSampleInput.csv"  -quiet
+    .\MelissaProfilerObjectWindowsJava.ps1 -file "MelissaProfilerObjectSampleInput.csv"  -license "<your_license_string>" -quiet
     ```
 This is the expected output from a successful setup for interactive mode:
 
